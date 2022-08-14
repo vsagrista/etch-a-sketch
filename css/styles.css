@@ -19,6 +19,23 @@ html, body {
     height: 70%;
     background-color: lightgrey;
     border-radius: 25px;
+    overflow: hidden;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 5px;
+    height: 5px;
+}
+
+.pain-square {
+    background-color: black;
 }
 
 .top-bottom-content {

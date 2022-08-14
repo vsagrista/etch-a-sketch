@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ed462f;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game-box {
+    width: 80%;
+    height: 70%;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+.top-bottom-content {
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.botton-content-inner, .top-content-inner {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+}
+
+.top-content-inner {
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content-inner h1 {
+    font-family: 'Arizonia', cursive;
+    font-size: 3.5em;
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.top-content-inner h1 span {
+    font-family: monospace;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.botton-content-inner {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joystick {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.joystick-hr {
+    position: absolute;
+    left: 50%;
+    height: 97%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-style: dashed;    
+}

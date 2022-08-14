@@ -35,6 +35,7 @@ function setUpBoard() {
 
     document.querySelectorAll('.square').forEach((square) => {
         square.addEventListener('mouseover', paintSquare)
+        square.addEventListener('touchstart', paintSquare)
     });
 }
 
